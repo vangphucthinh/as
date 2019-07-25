@@ -1,0 +1,206 @@
+.website{
+    margin: auto;
+}
+
+.head {
+    margin-left: 20px;
+    width: 1000px;
+    display: flex;
+
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 0.1px;
+    margin: auto;
+}
+
+.vnexpress {
+    width: 20%;
+    height: 90px;
+    padding-top: 40px;
+}
+
+.vietjet{
+    width: 38%;
+    height: 120px;
+}
+
+.unicorn {
+    width: 38%;
+    height: 120px;
+}
+
+.options {
+    margin: auto;
+    width: 1000px;
+    padding-top: 0.01px;
+    padding-bottom: 0.01px;
+    font-size: 83%;
+}
+
+.news {
+    width: 1000px;
+    margin-left: 10px;
+    margin: auto;
+    display: flex;
+}
+
+.main-new {
+    width: 52%;
+}
+
+.middle-article {
+    margin: auto;
+    display: flex;
+    height: 480px;
+}
+
+
+.middle-article  p{
+    margin-top: -5px;
+    font-size: 80%; 
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.middle-article .articles {
+    width: 30%;
+}
+
+.middle-article .articles  hr {
+    width: 160px; 
+    margin-left: -8px;
+    border: none; 
+    height: 1px;
+    color: gray;  
+    background-color: gray;
+    margin-top: 0.1px;
+}
+
+.side-ad {
+    display: flex;
+}
+
+.below-main-articles{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+
+.left-side-small-articles {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 0.1px;
+    margin-top: 0px;
+    width: 355px;
+}
+
+.left-side-small-articles  hr{
+    padding-right: 1px;
+    margin-left: 1px;
+    width: 360px;
+    margin-right: 2px;
+}
+
+article {
+    display: block;
+}
+
+.small-news {
+    border-bottom: 1px dotted gray;
+    margin-bottom: 4px;
+    padding-bottom: 1px;
+    float: left;
+    width: 100%;
+}
+
+.small-news .title {
+    position: relative;
+    margin-top: 1px;
+}
+
+.small-news .thumb_art {
+    position: relative;
+    margin-right: 10px;
+    float: left;
+    width: 140px;
+    margin-bottom: 1px;
+    padding-right: 8px;
+    margin-top: 1px;
+}
+
+.small-news .thumb_art .thumb_thumb_5x3 {
+    width: 150px;
+}
+
+.small-news .description {
+    margin-left: 3px;
+}
+
+.small-news .related_news {
+    color: gray;
+    font-size: 80%;
+    list-style-type: square;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+.small-news .article img {
+    padding-right: 6px;
+    width: 150px;
+    height: 98px;
+}
+
+.small-news h3{
+    font-size: 83%;
+    width: 350px;
+    margin-top: 0.2px;
+}
+
+.small-news  .article  p {
+    font-size: 85%;
+    width: 290px;
+    width: 200px;
+    margin-top: 0.1%;
+    margin-left: 0.1px;
+}
+
+.middle-articles {
+    margin-bottom: 10px;
+    height: 240px;
+}
+
+.tinlienquan {
+    width: 120px;
+    margin-right: 1px;
+    font-size: 80%;
+    color: rgb(117, 117, 117);
+    list-style: square;
+}
+
+.tinbentrailienquan li {
+    font-size: 80%; 
+    list-style: square;
+    color: rgb(117, 117, 117);
+    position: relative;
+    display: inline-block;
+}
+
+.middle-articles-content {
+    width: 270px; 
+}
+
+.below-main-articles  .middle-articles  h3 {
+    color: brown;
+    font-size: 95%;
+    margin-top: 0.1px;
+    margin-bottom: 2px;
+}
+
+.below-main-articles .right-ads img {
+    width: 180px;
+}
+
+
+
+
+
