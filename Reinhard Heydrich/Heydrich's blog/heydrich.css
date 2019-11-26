@@ -1,19 +1,294 @@
-.nav-bar
+body, html
 {
-    position: fixed;
-    list-style: none;
-    display: flex;
-    width: 100%;;
+    height: 100%;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
 }
 
-li a {
+nav
+{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: palevioletred;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar
+{
+    display: flex;
+    list-style: none;
+}
+
+li a 
+{
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    margin-right: 2rem;
+    padding: 2rem;
+    margin: 0 1rem;
     text-decoration: none;
-  }
+    color: white;
+    font-size: 120%;
+}
+
+#Home
+{
+    margin-top: 40px;
+    background-image: url("https://i.ytimg.com/vi/EgFBRxQ1S_o/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#Early-life
+{
+    display: flex;
+    flex-direction: rows;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+}
+
+#Early-life .text 
+{
+    margin: 20px;
+}
+
+#Early-life .text h2
+{
+    text-align: center;
+}
+
+
+#Early-life .photos
+{
+    display: flex;
+    justify-content: center;
+}
+
+#Early-life .photos .photo1 img
+{
+    width: 250px;
+}
+
+#Early-life .photos .photo2 img
+{
+    width: 233px;
+}
+
+#Early-life .photos figcaption
+{
+    text-align: center;
+    font-size: 80%;
+}
+
+#His-grown-up
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+#His-grown-up .text 
+{
+    margin: 20px;
+}
+
+#His-grown-up .text h2
+{
+    text-align: center;
+}
+
+#His-grown-up .photos
+{
+    display: flex;
+    justify-content: center;
+}
+
+#His-grown-up .photos .photo1 img
+{
+    width: 200px;
+}
+
+#His-grown-up .photos figcaption
+{
+    text-align: center;
+    font-size: 80%;
+}
+
+#In-SS
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+#In-SS .text 
+{
+    margin: 20px;
+}
+
+#In-SS .text h2
+{
+    text-align: center;
+}
+
+#In-SS .photos
+{
+    display: flex;
+    justify-content: center;
+}
+
+#In-SS .photos .photo1 img
+{
+    width: 240px;
+}
+
+#In-SS .photos .photo2 img
+{
+    width: 240px;
+}
+
+#In-SS .photos figcaption
+{
+    text-align: center;
+    font-size: 80%;
+}
+
+#Gestapo-and-SD
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+#Gestapo-and-SD .text 
+{
+    margin: 20px;
+}
+
+#Gestapo-and-SD .text h2
+{
+    text-align: center;
+}
+
+#Gestapo-and-SD .photos
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#Gestapo-and-SD .photos .photo1 img
+{
+    width: 240px;
+}
+
+#Gestapo-and-SD .photos .photo2 img
+{
+    width: 240px;
+}
+
+#Gestapo-and-SD .photos figcaption
+{
+    text-align: center;
+    font-size: 80%;
+}
+
+#Czechoslovakia
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+#Czechoslovakia .text 
+{
+    margin: 20px;
+}
+
+#Czechoslovakia .text h2
+{
+    text-align: center;
+}
+
+#Czechoslovakia .photos
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#Czechoslovakia .photos .photo1 img
+{
+    width: 240px;
+}
+
+#Czechoslovakia .photos .photo2 img
+{
+    width: 240px;
+}
+
+#Czechoslovakia .photos figcaption
+{
+    text-align: center;
+    font-size: 80%;
+}
+
+#Death
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+#Death .text 
+{
+    margin: 20px;
+}
+
+#Death .text h2
+{
+    text-align: center;
+}
+
+#Death .photos
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Death .photos .photo1 img
+{
+    width: 240px;
+}
+
+#Death .photos .photo2 img
+{
+    width: 240px;
+}
+
+#Death .photos figcaption
+{
+    text-align: center;
+    font-size: 80%;
+}
+
