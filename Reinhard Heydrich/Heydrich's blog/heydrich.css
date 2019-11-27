@@ -2,6 +2,7 @@ body, html
 {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 nav
@@ -11,8 +12,8 @@ nav
     top: 0;
     left: 0;
     width: 100%;
-    background: palevioletred;
-    height: 40px;
+    background: rgb(228, 36, 68);
+    height: 43px;
     align-items: center;
     justify-content: center;
 }
@@ -23,7 +24,9 @@ nav
     list-style: none;
 }
 
-li a 
+
+
+.nav-bar li a 
 {
     display: block;
     margin-right: 2rem;
@@ -32,6 +35,12 @@ li a
     text-decoration: none;
     color: white;
     font-size: 120%;
+}
+
+.nav-bar li a:hover
+{
+    background: rgb(168, 16, 67);
+    height: 0.5px;
 }
 
 #Home
