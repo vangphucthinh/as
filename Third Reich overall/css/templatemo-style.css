@@ -33,11 +33,34 @@ a:focus {
 	font-size: 70%;
 	text-align: center;
 }
+
 .Reichstag {
 	justify-content: center;
 	width: 500px;
 }
+
 .Reichstag .image-caption{
+	text-align: center;
+}
+
+.geography-photos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.Germany_1942 {
+	justify-content: center;
+	width: 340px;
+}
+.Germany_1942 .image-caption{
+	text-align: center;
+}
+
+.Germany_1944 {
+	justify-content: center;
+	width: 450px;
+}
+.Germany_1944 .image-caption{
 	text-align: center;
 }
 
