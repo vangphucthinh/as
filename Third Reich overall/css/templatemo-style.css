@@ -64,6 +64,50 @@ a:focus {
 	text-align: center;
 }
 
+.politics-photos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.politics1 {
+	justify-content: center;
+	width: 340px;
+}
+.politics1 .image-caption{
+	text-align: center;
+}
+
+.politics2 {
+	justify-content: center;
+	width: 320px;
+}
+.politics2 .image-caption{
+	text-align: center;
+}
+
+.SA-SS-photos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.SA {
+	justify-content: center;
+	width: 330px;
+}
+.SA .image-caption{
+	text-align: center;
+}
+
+.SS {
+	justify-content: center;
+	width: 400px;
+}
+.SS .image-caption{
+	text-align: center;
+}
+
+
+
 
 /*My classes above*/
 .tm-site-name {
