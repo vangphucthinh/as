@@ -28,7 +28,10 @@ a:focus {
 
 .tm-red-text {	color: red; }
 .tm-blue-bg a {	color: white; }
+
 /*My classes below*/
+
+/*History*/
 .image-caption {
 	font-size: 70%;
 	text-align: center;
@@ -43,6 +46,7 @@ a:focus {
 	text-align: center;
 }
 
+/*Geography*/
 .geography-photos {
 	display: flex;
 	justify-content: space-around;
@@ -64,6 +68,7 @@ a:focus {
 	text-align: center;
 }
 
+/*Politics*/
 .politics-photos {
 	display: flex;
 	justify-content: space-around;
@@ -85,6 +90,7 @@ a:focus {
 	text-align: center;
 }
 
+/*SA-SS*/
 .SA-SS-photos {
 	display: flex;
 	justify-content: space-around;
@@ -106,7 +112,90 @@ a:focus {
 	text-align: center;
 }
 
+/*Economy*/
+.economy-photos {
+	display: flex;
+	justify-content: space-around;
+}
 
+.Hjalmar-Schacht {
+	justify-content: center;
+	width: 320px;
+}
+
+.Hjalmar-Schacht .image-caption {
+	text-align: center;
+}
+
+.Chart {
+	justify-content: center;
+	width: 570px;
+}
+
+.Chart .image-caption {
+	text-align: center;
+}
+
+/*Racial policy*/
+
+.Racial-policy {
+	display: flex;
+	justify-content: space-around;
+}
+
+.Racial-policy .text {
+	width: 500px;
+}
+
+.Racial-policy .photos {
+	width: 400px;
+}
+
+.Racial-policy .photos .image-caption {
+	text-align: center;
+}
+
+.Racial-policy .photos .Boycott {
+	width: 400px;
+}
+
+.Racial-policy .photos .Nuremberg-laws {
+	width: 400px;
+}
+
+.Racial-policy .photos .Measurement {
+	width: 400px;
+}
+
+.Racial-policy .photos .Camp {
+	width: 400px;
+}
+
+.Racial-policy .photos .Buchenwald {
+	width: 400px;
+}
+
+/*Footer*/
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin-left: 1;
+}
+
+footer
+{
+  background-color: gray;
+}
+
+footer .logo
+{
+  height: 7vh;
+}
 
 
 /*My classes above*/
